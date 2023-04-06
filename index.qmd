@@ -37,11 +37,27 @@ message <- read.csv("message.txt", stringsAsFactors = FALSE)$Word
 Now complete the following steps to decode the message:
 
 1. Remove any spaces before or after each word.
+
+
 2. No word should be longer than 16 characters. Drop all extra characters off the end of each word.
+
+
 3. Any time you see the word "ugh", with any number of h's, followed by a punctuation mark, delete this.
+
+
 4. Replace all instances of exactly 2 a's with exactly 2 e's.
+
+
 5. Replace all z's with t's.
+
+
 6. Every word that ends in b, change that to a y.  *Hint: punctuation!*
+
+
 7. Every word that starts with k, change that to a v.  *Hint: capitalization!*
-8. Use `str_c` to recombine all your words into a message.
+
+
+8. Use `str_c(str)` or `' '.join(map(str, 1))` to recombine all your words into a message.
+
+
 9. Find the movie this quote is from.
