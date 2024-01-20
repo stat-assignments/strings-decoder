@@ -14,7 +14,7 @@ These exercises are stolen from kbodwin's `decodeR` repository.
 ```{r}
 library(tidyverse)
 library(lubridate)
-message <- read.csv("https://raw.githubusercontent.com/unl-stat151/11-strings/main/message.txt", stringsAsFactors = FALSE)$Word
+message <- read.csv("https://raw.githubusercontent.com/stat-assignments/strings-decoder/main/message.txt", stringsAsFactors = FALSE)$Word
 ```
 
 
