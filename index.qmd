@@ -1,8 +1,9 @@
 ---
-title: "Homework 11: Working with strings"
+title: "Homework: Working with strings"
+execute:
+  error: true
 author: "Your Name"
-date: "Due April 17, 2024"
-format: html
+output: html_document
 ---
 
 Complete the following tasks in R or Python. 
@@ -14,7 +15,7 @@ These exercises are stolen from kbodwin's `decodeR` repository.
 ```{r}
 library(tidyverse)
 library(lubridate)
-message <- read.csv("https://raw.githubusercontent.com/stat-assignments/strings-decoder/main/message.txt", stringsAsFactors = FALSE)$Word
+message <- read.csv("./message.txt", stringsAsFactors = FALSE)$Word
 ```
 
 
